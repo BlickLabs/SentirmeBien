@@ -549,7 +549,7 @@
 	.header-v6 .navbar-nav > .active > a, 
 	.header-v6 .navbar-nav > .active > a:hover, 
 	.header-v6 .navbar-nav > .active > a:focus {
-		color: #fff;
+		color: #333;
 		font-weight: 200;
 		background: none;
 	}

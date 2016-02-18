@@ -458,6 +458,27 @@ h3.title-v3-xs {
 	position: absolute;
 	background: #72c02c;
 }
+.headline-right {
+	position: relative;
+}
+
+.headline-right .headline-brd {
+	color: #555;
+	position: relative;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+}
+
+.headline-right .headline-brd:after {
+	right: 1px;
+	z-index: 1;
+	width: 30px;
+	height: 2px;
+	content: " ";
+	bottom: -5px;
+	position: absolute;
+	background: #72c02c;
+}
 
 /*Headline v2
 ------------------------------------*/

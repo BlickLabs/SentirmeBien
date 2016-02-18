@@ -1683,3 +1683,98 @@ img.img-mouse {
 .team-v1 li > h3 {
 	color: #555;
 }
+.icons-wall{
+	background: #697e90;
+}
+.white-text{
+	color: #F5F5F5;
+}
+.services-tittle{
+	text-align: center;
+}
+.icon-info{
+	width: 150px;
+	height: auto;
+}
+.text-centered{
+	text-align: center;
+}
+.arrow-icon{
+	width: 50px;
+	height: auto;
+	display: inline-block;
+}
+.benefits-info{
+	display: inline-block;
+}
+.doctors-button{
+	background: #0071ba;
+	padding: 10px;
+	border-radius: 5px;
+	width: 300px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #F5F5F5;
+	margin-top: 30px;
+}
+.more-button{
+	background: #0071ba;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #F5F5F5;
+	margin-top: 30px;
+}
+.doctors-link{
+	text-decoration: none !important;
+}
+.benefits-tittle{
+	padding-top: 30px;
+}
+.credit-icon-tittle{
+	width: 60px;
+	height: auto;
+	display: inline-block;
+}
+.credit-tittle{
+	display: inline-block;
+	padding-top: 30px;
+}
+.credit-section{
+	background: #EEEEEE;
+	height: 100%;
+}
+.credit-info{
+	padding-left: 9em;
+}
+.works-img{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+}
+.works-info{
+	text-align: center;
+}
+.work-text{
+	padding-top: 1em;
+}
+.grey-text{
+	color: #333333;
+}
+.send-btn{
+	background: #0071ba;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #F5F5F5;
+	margin-top: 30px;
+	border-color: transparent;
+}
+.filler-section{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
