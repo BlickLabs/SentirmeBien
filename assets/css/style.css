@@ -1684,7 +1684,7 @@ img.img-mouse {
 	color: #555;
 }
 .icons-wall{
-	background: #697e90;
+	background: #5f6477;
 }
 .white-text{
 	color: #F5F5F5;
@@ -1693,37 +1693,38 @@ img.img-mouse {
 	text-align: center;
 }
 .icon-info{
-	width: 150px;
+	width: 130px;
 	height: auto;
 }
 .text-centered{
 	text-align: center;
 }
 .arrow-icon{
-	width: 50px;
+	width: 35px;
 	height: auto;
 	display: inline-block;
+	margin-top: -7px;
 }
 .benefits-info{
 	display: inline-block;
 }
 .doctors-button{
 	background: #0071ba;
-	padding: 10px;
 	border-radius: 5px;
-	width: 300px;
+	width: 270px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: #F5F5F5;
 	margin-top: 30px;
+	padding: 4px;
 }
 .more-button{
 	background: #0071ba;
-	padding: 10px;
+	padding: 4px;
 	border-radius: 5px;
 	width: 100px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #F5F5F5;
 	margin-top: 30px;
 }
@@ -1737,22 +1738,26 @@ img.img-mouse {
 	width: 60px;
 	height: auto;
 	display: inline-block;
+	margin-top: -20px;
 }
 .credit-tittle{
 	display: inline-block;
 	padding-top: 30px;
 }
+
 .credit-section{
 	background: #EEEEEE;
 	height: 100%;
 }
 .credit-info{
 	padding-left: 9em;
+	margin-bottom: 1em;
 }
 .works-img{
 	border-radius: 100%;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
+	background-position: center;
 }
 .works-info{
 	text-align: center;
@@ -1765,11 +1770,11 @@ img.img-mouse {
 }
 .send-btn{
 	background: #0071ba;
-	padding: 10px;
+	padding: 4px;
 	border-radius: 5px;
 	width: 100px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #F5F5F5;
 	margin-top: 30px;
 	border-color: transparent;
@@ -1777,4 +1782,17 @@ img.img-mouse {
 .filler-section{
 	padding-top: 2em;
 	padding-bottom: 2em;
+}
+.no-padding{
+	padding-top: 0;
+	margin-top: 0;
+}
+label{
+	margin-top: 3px;
+}
+.no-resizable{
+	resize: none;
+}
+.border-right{
+	border-bottom: 3px solid #0071ba;
 }
