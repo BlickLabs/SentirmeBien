@@ -47,7 +47,7 @@ label {
 }
 
 a {
-   color: #72c02c;
+   color: #0071ba;
    text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-   color: #72c02c;
+   color: #0071ba;
    text-decoration: underline;
 }
 
@@ -1711,22 +1711,24 @@ img.img-mouse {
 .doctors-button{
 	background: #0071ba;
 	border-radius: 5px;
-	width: 270px;
+	width: 240px;
 	text-align: center;
 	font-size: 1.2em;
 	color: #F5F5F5;
 	margin-top: 30px;
 	padding: 4px;
+	margin-left: 25px;
 }
 .more-button{
 	background: #0071ba;
 	padding: 4px;
 	border-radius: 5px;
-	width: 100px;
+	width: 80px;
 	text-align: center;
 	font-size: 1.3em;
 	color: #F5F5F5;
 	margin-top: 30px;
+	margin-bottom: 5em;
 }
 .doctors-link{
 	text-decoration: none !important;
@@ -1750,7 +1752,11 @@ img.img-mouse {
 	height: 100%;
 }
 .credit-info{
-	padding-left: 9em;
+	padding-left: 12.5em;
+	margin-bottom: 1em;
+}
+.credit-info2{
+	padding-left: 10em;
 	margin-bottom: 1em;
 }
 .works-img{
@@ -1770,14 +1776,15 @@ img.img-mouse {
 }
 .send-btn{
 	background: #0071ba;
-	padding: 4px;
+	padding: 3px;
 	border-radius: 5px;
-	width: 100px;
+	width: 80px;
 	text-align: center;
 	font-size: 1.3em;
 	color: #F5F5F5;
 	margin-top: 30px;
 	border-color: transparent;
+
 }
 .filler-section{
 	padding-top: 2em;
@@ -1788,11 +1795,56 @@ img.img-mouse {
 	margin-top: 0;
 }
 label{
-	margin-top: 3px;
+	margin-top: 6px;
+	font-size: 1.2em;
 }
 .no-resizable{
 	resize: none;
 }
 .border-right{
 	border-bottom: 3px solid #0071ba;
+}
+.padding-top{
+	padding-top: 3em;
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+.padding-bot{
+	padding-bottom: 5.5em;
+}
+.padding-bot2{
+	padding-bottom: 2em;
+}
+.padding-left-icon{
+	padding-left: 1em;
+}
+.contact-section{
+	background: #EEEEEE;
+}
+
+.bar-doctors{
+	text-transform: uppercase;
+	font-size: 1.1em;
+	color: #333333;
+	text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.bar-doctor:hover{
+	color: #333;
+}
+.padding-bar{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.filler-text{
+	font-size: 30px;
 }
