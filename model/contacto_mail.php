@@ -5,7 +5,7 @@ header("Content-Type: text/html;charset=utf-8");
 use Mailgun\Mailgun;
 
 require '../vendor/autoload.php';
-$name2 = $_POST['firstName'];
+$name2 = $_POST['name'];
 $email2 = $_POST['email'];
 $mensaje = $_POST['msg'];
 $asunto = 'Un cliente requiere de mayor información: ';
@@ -53,8 +53,6 @@ $result = curl_exec($curl);
 curl_close($curl);
 
 
-   require_once '../model/contacto_cliente.php';
-//return $result;
-$success = true;
-echo json_encode(array("success" => $success));
+$message = '<div class="alert alert-success" role="alert">Tu mensaje ha sido enviado!. Pronto nos pondremos en contacto contigo</div>';
+ echo $message;
 ?>
