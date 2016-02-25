@@ -1851,3 +1851,113 @@ label{
 .footer{
 	background: #697e90;
 }
+.about-us-img{
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+}
+.about-us-info{
+	line-height: 35px;
+}
+.about-us-improve{
+	padding-top: 50px;
+}
+.colorSB{
+	color: #5f6477;
+}
+.credit-steps{
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+}
+.works-icons{
+	width: 100px;
+	height: auto;
+	margin-left: -50px;
+	margin-right: -20px;
+	margin-top: -5px;
+	display: inline-block;
+}
+.inline{
+	display: inline-block;
+}
+.SBicon{
+	width: 60px;
+	height: auto;
+	display: inline-block;
+	margin-left: -30px;
+	margin-top: -15px;
+
+}
+.relative{
+	position: relative;
+	padding-bottom: 50px;
+}
+.doctor-tittle{
+	font-size: 4em;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.doctor-img{
+	display: inline-block;
+	z-index: -1;
+
+}
+.overicon-doctor{
+	float: right;
+	margin-bottom: -50px;
+	width: 150px;
+	height: auto;
+	z-index: 1px;
+}
+.more-doctor-btn{
+	background: #0071ba;
+	width: 120px;
+	color: #F5F5F5;
+	padding: 4px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	display: inline-block;
+	border-color: transparent;
+}
+.modal-doctor{
+	margin-top: 150px;
+	background: #EEEEEE;
+	width: 700px;
+	margin-left:-30px;
+}
+.icon-modal{
+	width: 130px;
+	height: auto;
+	padding-top: 20px;
+}
+.modal-info{
+	padding-bottom: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+}
+.user-img{
+	width: 324px;
+	height: auto;	
+}
+.contact-f{
+	padding-left: 13px;
+}
+.centernav{
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-centered .navbar-nav > li {
+        float: none;
+    }
+    .navbar-centered .nav > li {
+        display: inline;
+    }
+    .navbar-centered .nav > li > a {
+        display: inline-block;
+    }
+}
