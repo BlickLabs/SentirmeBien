@@ -137,7 +137,7 @@
               </div>
               <img class="animated fadeInUp wow margin-bottom-20 img-responsive center-block" src="assets/img/Logo-15.png" style="width: 400px; height: auto;" alt="Logo" data-wow-duration="1.5s" data-wow-delay="1.5s">
               <span class="promo-text-v2 animated fadeInUp wow margin-bottom-20 padding-top" data-wow-duration="2s" data-wow-delay="1s"> 
-              <p class="Avenir" style="padding-top: 50px;">CRÉDITO PERSONAL DEDICADO <br>AL CUIDADO DE LA SALUD</p>
+              <p class="Avenir" style="padding-top: 50px;">CRÉDITO PERSONAL DEDICADO <br>A TU SALUD Y APARIENCIA</p>
               </span>
           </div>
       </div>
@@ -363,14 +363,14 @@
     $("#myNavbar a").on('click', function (event) {
         event.preventDefault();
         var pageRef = $(this).attr("href");
-
+        var offset = 80;
         if(pageRef[0] != '#') {
             window.location.href = pageRef;
           }
           else{
             var hash = this.hash;
             $('html, body').animate({
-                scrollTop: $(hash).offset().top
+                scrollTop: $(hash).offset().top -69
             }, 800, function () {
                 window.location.hash = hash;
 
