@@ -2001,6 +2001,29 @@ label{
 	width: 760px;
 	margin-left:-81px;
 }
+@media only screen and (max-width:768px) { 
+    .modal-doctor { width: 760px; }
+}
+@media only screen and (max-width:480px) { 
+    .modal-doctor {
+        width: 380px;
+        height: auto;
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .modal-doctor {
+       width: 320px;
+       height: auto;
+       display: inline-block;
+       margin-left: 0px;
+       margin-top: 20px;
+	
+    }
+}
 .icon-modal{
 	width: 130px;
 	height: auto;
@@ -2011,6 +2034,29 @@ label{
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: left;
+}
+@media only screen and (max-width:768px) { 
+    .modal-info { width: 760px; }
+}
+@media only screen and (max-width:480px) { 
+    .modal-info {
+        width: 350px;
+        padding-bottom: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .modal-info {
+       width: 290px;
+       padding-bottom: 20px;
+       padding-left: 5%;
+       padding-right: 5%;
+       text-align: center;
+	
+    }
 }
 .user-img{
 	width: 324px;
