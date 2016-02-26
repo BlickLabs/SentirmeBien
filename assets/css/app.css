@@ -396,17 +396,47 @@ h3.title-v3-xs {
 	position: absolute;
 	background: #0071ba;
 }
-.headline-center5 h2:after {
-	left: 263px;
-	z-index: 1;
-	width: 40px;
-	height: 2px;
-	content: " ";
-	bottom: 5px;
-	margin-left: -15px;
-	text-align: left;
-	position: absolute;
-	background: #0071ba;
+@media only screen and (max-width:768px) { 
+    .headline-center4 h2:after { 
+        left: 330px;
+    	z-index: 1;
+    	width: 40px;
+    	height: 2px;
+    	content: " ";
+    	bottom: 5px;
+    	margin-left: -15px;
+    	text-align: left;
+    	position: absolute;
+    	background: #0071ba;
+    }
+}
+@media only screen and (max-width:480px) { 
+    .headline-center4 h2:after {
+	    left: 330px;
+		z-index: 1;
+		width: 40px;
+		height: 2px;
+		content: " ";
+		bottom: 5px;
+		margin-left: -15px;
+		text-align: left;
+		position: absolute;
+		background: #0071ba;
+    }
+}
+@media only screen and (max-width:360px) { 
+    .headline-center4 h2:after {
+	    left: 205px;
+		z-index: 1;
+		width: 40px;
+		height: 2px;
+		content: " ";
+		bottom: 5px;
+		margin-left: -15px;
+		text-align: left;
+		position: absolute;
+		background: #0071ba;
+    }
 }
 .headline-center5 h2:after {
 	left: 263px;
@@ -419,6 +449,48 @@ h3.title-v3-xs {
 	text-align: left;
 	position: absolute;
 	background: #0071ba;
+}
+@media only screen and (max-width:768px) { 
+    .headline-center5 h2:after { 
+        left: 263px;
+    	z-index: 1;
+    	width: 40px;
+    	height: 2px;
+    	content: " ";
+    	bottom: 5px;
+    	margin-left: -15px;
+    	text-align: left;
+    	position: absolute;
+    	background: #0071ba;
+    }
+}
+@media only screen and (max-width:480px) { 
+    .headline-center5 h2:after {
+	    left: 263px;
+    	z-index: 1;
+    	width: 40px;
+    	height: 2px;
+    	content: " ";
+    	bottom: 5px;
+    	margin-left: -15px;
+    	text-align: left;
+    	position: absolute;
+    	background: #0071ba;
+    }
+}
+@media only screen and (max-width:360px) { 
+    .headline-center5 h2:after {
+	    left: 180px;
+    	z-index: 1;
+    	width: 40px;
+    	height: 2px;
+    	content: " ";
+    	bottom: 5px;
+    	margin-left: -15px;
+    	text-align: left;
+    	position: absolute;
+    	background: #0071ba;
+    }
 }
 .headline-center p {
 	/*color: #999;*/

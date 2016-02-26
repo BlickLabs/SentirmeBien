@@ -1736,11 +1736,29 @@ img.img-mouse {
 	display: inline-block;
 	margin-top: -20px;
 }
+
 .credit-tittle{
 	display: inline-block;
 	padding-top: 30px;
 }
-
+@media only screen and (max-width:768px) { 
+    .credit-tittle { 
+        display: inline-block;
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width:480px) { 
+    .credit-tittle {
+       	display: inline-block;
+        width: 290px;
+    }
+}
+@media only screen and (max-width:360px) { 
+    .credit-tittle {
+        display: inline-block;
+        width: 170px;
+    }
+}
 .credit-section{
 	background: #EEEEEE;
 	height: 100%;
@@ -1924,7 +1942,7 @@ label{
 @media only screen and (max-width:360px) { 
     .inline {
         display: inline-block;
-        width: 200px;
+        width: 150px;
         text-align: left;
     }
  }
@@ -2160,6 +2178,6 @@ button.close2 {
 @media only screen and (max-width:360px) { 
     .benefits-info {
         display: inline-block;
-        width: 200px;
+        width: 150px;
         text-align: left;
     }
