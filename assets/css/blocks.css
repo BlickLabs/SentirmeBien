@@ -130,6 +130,7 @@
   font-weight: 600;
   display: inline-block;
   border-bottom: solid 2px #fff;
+
 }
 
 .promo-text-v1.color-dark {
@@ -138,9 +139,11 @@
 
 /*Promo Texts v2*/
 .promo-text-v2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
-  line-height: 63px;
+  line-height: 33px;
+  color: #697e90;
+  letter-spacing: 1px;
 }
 
 /*Promo Video Icon*/
