@@ -44,10 +44,10 @@
       <link rel="stylesheet" href="assets/css/custom.css">
   </head>
 
-  <body class="header-fixed promo-padding-top sliding-panel-ini sliding-panel-flag-right Avenir">
+  <body class="header-fixed promo-padding-top Avenir">
   <div class="wrapper">
       <!--=== Header v6 ===-->
-      <div class="header-v6 header-border-bottom header-dark-dropdown header-sticky">
+      <div class="header-v6 header-border-bottom2 header-dark-dropdown header-sticky">
           <!-- Navbar -->
           <div class="navbar mega-menu" role="navigation">
               <div class="container">
@@ -59,7 +59,11 @@
                               <div class="collapse navbar-collapse navbar-responsive-collapse center-block">
                                   <div class="container center-block navbar-centered">
                                       <ul class="nav navbar-nav grey-text center">
-                                      
+                                          <li class="dropdown">
+                                              <a href="index.html" class="dropdown-toggle Avenir center-block">
+                                                 Inicio
+                                              </a>
+                                          </li>
                                           <li class="dropdown">
                                               <a href="about-us.html" class="dropdown-toggle Avenir center-block">
                                                   Quiénes somos
@@ -122,8 +126,8 @@
         <!-- End Flat Background Block -->
         <div class="works-section container-fluid" id="">
            <div class="row margin-bottom-60 container-fluid">
-                     <div class="col-md-8 col-md-offset-2" style="margin-bottom: 50px; padding-top:30px;">
-                        <img src="assets/img/about-us.jpg" class="about-us-img" alt="Quienes somos">
+                     <div class="col-md-8 col-md-offset-2" style="margin-bottom: 50px; padding-top:45px;">
+                        <img src="assets/img/b.jpg" class="about-us-img" alt="Quienes somos">
                      </div>
                      <div class="col-md-8 col-md-offset-2" style="margin-bottom: 50px;">
                         <h2 class="Avenir colorSB">CONÓCENOS MÁS</h2>
@@ -155,7 +159,6 @@
   <script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
   <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
   <!-- JS Implementing Plugins -->
-  <script src="assets/plugins/back-to-top.js"></script>
   <script src="assets/plugins/smoothScroll.js"></script>
   <script src="assets/plugins/backstretch/backstretch-ini.js"></script>
   <script src="assets/plugins/wow-animations/js/wow.min.js"></script>
@@ -174,10 +177,6 @@
     App.init();
     new WOW().init();
     App.initParallaxBg();
-    FancyBox.initFancybox();
-    OwlCarousel.initOwlCarousel();
-    StyleSwitcher.initStyleSwitcher();
-    $('#cbp-lightbox').cubeportfolio({});
   });
   </script>
   <!--[if lt IE 9]>
