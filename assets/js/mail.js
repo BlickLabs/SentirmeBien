@@ -12,6 +12,9 @@ $(document).ready(function() {
             email : "Debe introducir un email válido.",
             msg : "El campo Mensaje es obligatorio.",
         },
+        errorHandler: function (element) {
+            $(element).parent().addClass('error');
+        },
         submitHandler: function(form){
             var dataString = 'name='+$('#name').val()+'&email='+$('#email').val()+'&msg='+$('#msg').val();
             $.ajax({
@@ -21,6 +24,7 @@ $(document).ready(function() {
                 success: function(data){
                     $("#ok").html(data);
                     $("#ok").show();
+                    $("#send-sb").hide();
                     document.getElementById('formid').reset();
                  
                 }

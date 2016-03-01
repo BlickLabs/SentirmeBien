@@ -72,19 +72,19 @@
                                         </li>    
                               
                                         <li class="dropdown">
-                                            <a href="index.html#services" class="dropdown-toggle Avenir center-block">
+                                            <a href="index.html#services2" class="dropdown-toggle Avenir center-block">
                                                 Servicios
                                             </a>
                                         </li>
                                
                                         <li class="dropdown">
-                                            <a href="index.html#benefits" class="dropdown-toggle Avenir center-block">
+                                            <a href="index.html#benefits2" class="dropdown-toggle Avenir center-block">
                                                 Beneficios
                                             </a>
                                         </li>
                                 
                                         <li class="dropdown">
-                                            <a href="works.html" class="dropdown-toggle Avenir center-block">
+                                            <a href="index.html#works2" class="dropdown-toggle Avenir center-block">
                                                 Cómo Funciona
                                             </a>
                                         </li>
@@ -98,7 +98,7 @@
 
                    
                                         <li class="dropdown">
-                                            <a href="index.html#contact" class="dropdown-toggle Avenir">
+                                            <a href="index.html#gg2" class="dropdown-toggle Avenir">
                                                 Contacto
                                             </a>
                                     </ul>
@@ -123,13 +123,13 @@
       <!-- Flat Background Block -->
       <!-- End Flat Background Block -->
       <div class="works-section container-fluid" id="">
-         <div class="row margin-bottom-60" container-fluid>
+         <div class="row">
+            <div class="col-md-10 col-md-offset-2 container-fluid">
+            <h1 class="Avenir colorSB doctor-tittle">Conoce a nuestros doctores</h1>
+            </div> 
+         </div>
+         <div class="row container-fluid">
                    <div class="col-md-12 container-fluid" >
-                      <div class="col-md-12 container-fluid">
-                        <div class="col-md-4 col-md-offset-2">
-                        <h1 class="Avenir colorSB doctor-tittle">Conoce a nuestros doctores</h1>
-                        </div>
-                      </div>
                       <div class="col-md-4 col-md-offset-2 container-fluid text-center">
                         <div class="container-fluid relative">
 
@@ -141,7 +141,7 @@
                       </div>
                       <div class="col-md-4 container-fluid text-center">
                           <div class="container-fluid relative">
-                            <img src="assets/img/user.jpg" class="img-responsive user-img center-block" alt="Doctor">
+                            <img src="assets/img/avatar.jpg" class="img-responsive user-img center-block" alt="Doctor">
                             <br>
                             <br>
                             <br>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="col-md-4 col-md-offset-2 container-fluid text-center">
                            <div class="container-fluid relative">
-                             <img src="assets/img/user.jpg" class="img-responsive user-img center-block" alt="Doctor">
+                             <img src="assets/img/avatar.jpg" class="img-responsive user-img center-block" alt="Doctor">
                              <br>
                              <br>
                              <br>
@@ -166,7 +166,7 @@
                          </div>
                        <div class="col-md-4 container-fluid text-center">
                           <div class="container-fluid relative">
-                            <img src="assets/img/user.jpg" class="img-responsive user-img center-block" alt="Doctor">
+                            <img src="assets/img/avatar.jpg" class="img-responsive user-img center-block" alt="Doctor">
                             <br>
                             <br>
                             <br>
@@ -185,7 +185,7 @@
                         <button type="button" class="close2 Avenir" data-dismiss="modal">X</button>
                         </div>
                         <img src="assets/img/icons/iconos-06.png" class="img-responsive icon-modal center-block" alt="Dentista">
-                        <h3 class="Avenir colorSB text-center">DR. JOSÉ RAMÓN HERNÁNDEZ CARVALLO</h3>
+                        <h3 class="Avenir colorSB text-center doctor-m-tittle">DR. JOSÉ RAMÓN HERNÁNDEZ CARVALLO</h3>
                         <h4 class="Avenir colorSB text-center">Cirujano Dentista Universidad Veracruzana</h4>
                          <div class="modal-body">
                            <h4 class="Avenir colorSB modal-info">Especialista en Ortodoncia Universidad Nacional Autónoma de México.
@@ -264,6 +264,13 @@
 
                      </div>
                    </div>
+                   <div class="container margin-bottom-60">
+                     <a href="index.html" class="doctors-link">
+                       <div class="more-button Avenir center-block">
+                           Regresar
+                       </div>
+                     </a>
+                   </div>
           </div>
       </div>
     <div class="">
@@ -306,9 +313,9 @@ jQuery(document).ready(function() {
   new WOW().init();
   App.initParallaxBg();
   FancyBox.initFancybox();
-  OwlCarousel.initOwlCarousel();
-  StyleSwitcher.initStyleSwitcher();
-  $('#cbp-lightbox').cubeportfolio({});
+  $('.navbar-toggle').click(function(){
+    $(this).toggleClass('open');
+  });
 });
 </script>
 <!--[if lt IE 9]>

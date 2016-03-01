@@ -1011,7 +1011,12 @@
 	.header-fixed .header-v6,
 	.header-fixed .header-v6.header-fixed-shrink {
 		height: inherit;
-		position: relative;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 999;
+		background: #FFF	;
 	}
 
 	/*Header Inner Right*/

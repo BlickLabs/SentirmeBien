@@ -1,6 +1,6 @@
 <?php
 //PROCESS NEWSLETTER FORM HERE
-
+include("../model/conexion.php");
 
 if(!isset($_POST) || !isset($_POST['email']))
 { 
@@ -43,12 +43,12 @@ if($_POST['email'] == '')
    
 
  
-//$pertence= 'newsletter';
+$pertence= 'newsletter';
 ////Change database 
-//mysqli_select_db($con, "$dbname");
+mysqli_select_db($con, "$dbname");
 //
-//$query = mysqli_query($con, "INSERT INTO Usuarios (email,pertenece_a) VALUES ('$email','$pertence')");
-//mysqli_close($con);  
+$query = mysqli_query($con, "INSERT INTO Usuarios (email,pertenece_a) VALUES ('$email','$pertence')");
+mysqli_close($con);  
 
 
 //And send success message:

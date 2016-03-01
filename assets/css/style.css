@@ -1722,14 +1722,16 @@ img.img-mouse {
 	font-size: 1.3em;
 	color: #F5F5F5;
 	margin-top: 30px;
-	margin-bottom: 5em;
 }
 .doctors-link{
 	text-decoration: none !important;
 }
-.benefits-tittle{
-	padding-top: 30px;
+@media only screen and (max-width:991px) { 
+    .doctors-link {
+        margin-bottom: 25px;
+    }
 }
+
 .credit-icon-tittle{
 	width: 60px;
 	height: auto;
@@ -1753,10 +1755,52 @@ img.img-mouse {
         width: 290px;
     }
 }
+@media only screen and (max-width:430px) { 
+    .credit-tittle {
+       	display: inline-block;
+        width: 170px;
+    }
+}
 @media only screen and (max-width:360px) { 
     .credit-tittle {
         display: inline-block;
         width: 170px;
+    }
+}
+.credit-tittle2{
+	display: inline-block;
+	padding-top: 30px;
+}
+@media only screen and (max-width:768px) { 
+    .credit-tittle2 { 
+        display: inline-block;
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width:480px) { 
+    .credit-tittle2 {
+       	display: inline-block;
+        width: 290px;
+    }
+}
+@media only screen and (max-width:430px) { 
+    .credit-tittle2 {
+       	display: inline-block;
+        width: 220px;
+    }
+}
+@media only screen and (max-width:360px) { 
+    .credit-tittle2 {
+        display: inline-block;
+        width: 170px;
+    }
+}
+.benefits-top{
+
+}
+@media only screen and (max-width:991px) { 
+    .benefits-top {
+margin-top: 35px;
     }
 }
 .credit-section{
@@ -1809,6 +1853,7 @@ img.img-mouse {
 label{
 	margin-top: 6px;
 	font-size: 1.2em;
+	font-weight: 500;
 }
 .no-resizable{
 	resize: none;
@@ -1874,6 +1919,21 @@ label{
 }
 .about-us-info{
 	line-height: 35px;
+}
+@media only screen and (max-width:840px) { 
+    .about-us-info { width: 90%; }
+}
+@media only screen and (max-width:480px) { 
+    .about-us-info {
+	width:100%;		
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .about-us-info {
+	width: 100%;
+	
+    }
 }
 .about-us-improve{
 	padding-top: 50px;
@@ -1985,8 +2045,42 @@ label{
 	font-size: 28px;
 	padding-top: 150px;
 	padding-bottom: 50px;
-	padding-left: 30px;
+	padding-left:30px;
 	text-align: left;
+}
+.doctor-tittle{
+}
+@media only screen and (max-width:976px) { 
+    .doctor-tittle { 
+		padding-left: 30px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:576px) { 
+    .doctor-tittle { 
+		padding-left: 30px;
+    }
+}
+@media only screen and (max-width:480px) { 
+    .doctor-tittle {
+       	font-size: 24px;
+       	padding-left: 30px;
+    }
+}
+@media only screen and (max-width:360px) { 
+    .doctor-tittle {
+        font-size: 20px;
+
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width:300px) { 
+    .doctor-tittle {
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 0px;
+    }
 }
 .doctor-img{
 	display: inline-block;
@@ -1995,6 +2089,45 @@ label{
 	height: auto;
 	margin-bottom: 40px;
 
+}
+.modal-dialog{
+
+}
+@media only screen and (max-width:768px) { 
+    .modal-dialog { }
+}
+@media only screen and (max-width:480px) { 
+    .modal-dialog {
+        height: 95%;
+        max-height: 95%
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .modal-dialog {
+    	height: 95%;
+    	max-height: 95%
+	
+    }
+}
+.modal-body{
+}
+
+@media only screen and (max-width:480px) { 
+	.modal-body{
+		overflow-x: none;
+		overflow-y: auto;
+		max-height: 145px;
+		font-size: 14px;	
+}
+}
+@media only screen and (max-width:360px) { 
+	.modal-body{
+		overflow-x: none;
+		overflow-y: auto;
+		max-height: 145px;
+		font-size: 14px;
+}
 }
 .overicon-doctor{
 	float: right;
@@ -2024,22 +2157,45 @@ label{
 }
 @media only screen and (max-width:480px) { 
     .modal-doctor {
-        width: 380px;
-        height: auto;
-        display: inline-block;
-        margin-left: 0px;
+        width: 90%;
+        overflow-y: auto;
+        overflow-x: none;
+        text-align: justify;
+        margin-left: 5%;
         margin-top: 20px;
 
     }
 }
 @media only screen and (max-width:360px) { 
     .modal-doctor {
-       width: 320px;
-       height: auto;
-       display: inline-block;
-       margin-left: 0px;
-       margin-top: 20px;
+    	width: 90%;
+    	overflow-y: auto;
+    	overflow-x: none;
+    	text-align: justify;
+    	margin-left: 5%;
+    	margin-top: 20px;
 	
+    }
+}
+.doctor-m-tittle{
+
+}
+@media only screen and (max-width:768px) { 
+    .doctor-m-tittle{
+    }
+}
+@media only screen and (max-width:480px) { 
+    .doctor-m-tittle {
+        width: 90%;
+        margin-left: 5%;
+
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .doctor-m-tittle {
+    	width: 90%;
+    	margin-left: 5%;	
     }
 }
 .icon-modal{
@@ -2058,21 +2214,25 @@ label{
 }
 @media only screen and (max-width:480px) { 
     .modal-info {
-        width: 350px;
+        width: 90%;
         padding-bottom: 20px;
         padding-left: 5%;
-        padding-right: 5%;
-        text-align: center;
+		padding-right: 0;
+		overflow-y: auto;
+		overflow-x: none;
+        text-align: justify;
 
     }
 }
 @media only screen and (max-width:360px) { 
     .modal-info {
-       width: 290px;
+       width: 90%;
        padding-bottom: 20px;
        padding-left: 5%;
-       padding-right: 5%;
-       text-align: center;
+	   padding-right: 0;
+	   overflow-y: auto;
+	   overflow-x: none;
+       text-align: justify;
 	
     }
 }
@@ -2133,15 +2293,17 @@ button.close2 {
 	margin-top: -7px;
 }
 
-@media only screen and (max-width:768px) { 
-    .arrow-icon { font-size: 35px }
+@media only screen and (max-width:1004px) { 
+    .arrow-icon { font-size: 35px;
+    			   margin-top: -35px;
+	 }
 }
 @media only screen and (max-width:480px) { 
     .arrow-icon {
-        width: 35px;
+    width: 35px;
 	height: auto;
 	display: inline-block;
-	margin-top: -10px;
+	margin-top: -35px;
 
     }
 }
@@ -2150,17 +2312,170 @@ button.close2 {
        width: 35px;
 	height: auto;
 	display: inline-block;
+	margin-top: -35px;
+	
+    }
+}
+.arrow-icon-first{
+	width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -7px;
+}
+
+@media only screen and (max-width:767px) { 
+    .arrow-icon-first { font-size: 35px;
+    			   margin-top: -35px;
+	 }
+}
+@media only screen and (max-width:480px) { 
+    .arrow-icon-first {
+    width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -35px;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .arrow-icon-first {
+       width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -35px;
+	
+    }
+}
+.arrow-icon-a{
+	width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -35px;
+}
+
+@media only screen and (max-width:768px) { 
+    .arrow-icon-a { font-size: 35px }
+}
+@media only screen and (max-width:480px) { 
+    .arrow-icon-a {
+    width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -35px;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .arrow-icon-a {
+       width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -35px;
+	
+    }
+}
+.arrow-icon2{
+	width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -55px;
+}
+
+@media only screen and (max-width:768px) { 
+    .arrow-icon2 { font-size: 35px;
+					margin-top: -55px;
+    			 }
+}
+@media only screen and (max-width:480px) { 
+    .arrow-icon2 {
+        width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -55px;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .arrow-icon2 {
+       width: 55px;
+	height: auto;
+	display: inline-block;
+	margin-top: -10px;
+	
+    }
+}
+.arrow-icon2-2{
+	width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -7px;
+}
+
+@media only screen and (max-width:1002px) { 
+    .arrow-icon2-2 { font-size: 35px;
+					margin-top: -55px;
+    			 }
+}
+@media only screen and (max-width:480px) { 
+    .arrow-icon2-2 {
+        width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -55px;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .arrow-icon2-2 {
+       width: 55px;
+	height: auto;
+	display: inline-block;
+	margin-top: -10px;
+	
+    }
+}
+.arrow-icon-pre{
+	width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -7px;
+}
+
+@media only screen and (max-width:768px) { 
+    .arrow-icon-pre { font-size: 35px;
+					margin-top: -10px;
+    			 }
+}
+@media only screen and (max-width:480px) { 
+    .arrow-icon-pre {
+        width: 35px;
+	height: auto;
+	display: inline-block;
+	margin-top: -10px;
+
+    }
+}
+@media only screen and (max-width:360px) { 
+    .arrow-icon-pre {
+       width: 55px;
+	height: auto;
+	display: inline-block;
 	margin-top: -10px;
 	
     }
 }
 .benefits-info{
 	display: inline-block;
-        width: 400px;
+        width: 300px;
         text-align: left;
 }
-
-
+@media only screen and (max-width:1002px) { 
+    .benefits-info { 
+        display: inline-block;
+        width: 250px;
+       text-align: left;
+    }
+}
 @media only screen and (max-width:768px) { 
     .benefits-info { 
         display: inline-block;
@@ -2181,3 +2496,84 @@ button.close2 {
         width: 150px;
         text-align: left;
     }
+}
+.alertS{
+	border-radius: 5px;
+	margin-top: 15px;
+}
+#formid .error{
+	color: #c62828;
+}
+.links-from{
+	display: block;
+	position: relative;
+	top: -69px;
+	visibility: hidden;
+}
+
+/*.navbar-toggle, #nav-icon2, #nav-icon3, #nav-icon4 {
+  width: 20px;
+  height: 15px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-toggle span, #nav-icon3 span, #nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #697e90;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.navbar-toggle span:nth-child(1) {
+  top: 0px;
+}
+
+.navbar-toggle span:nth-child(2) {
+  top: 8px;
+}
+
+.navbar-toggle span:nth-child(3) {
+  top: 16px;
+}
+
+.navbar-toggle.open span:nth-child(1) {
+  top: 8px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.navbar-toggle.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.navbar-toggle.open span:nth-child(3) {
+  top: 8px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}*/
