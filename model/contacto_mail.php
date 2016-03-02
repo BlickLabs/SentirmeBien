@@ -51,11 +51,6 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, $message);
 $result = curl_exec($curl);
 
 curl_close($curl);
-$pertence= 'contacto';
-//Change database 
-mysqli_select_db($con, "$dbname");
-$query = mysqli_query($con, "INSERT INTO Usuarios (nombre,email,pertenece_a) VALUES ('$name','$email','$pertence')");
-mysqli_close($con); 
 
 $message = '<div class="alert alert-success" role="alert">¡Nos podremos en contacto contigo a la brevedad posible!</div>';
  echo $message;
