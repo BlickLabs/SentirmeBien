@@ -1,7 +1,7 @@
 <?php error_reporting(E_ALL);
 header("Content-Type: text/html;charset=utf-8");
 
-include("../model/conexion.php");
+
 use Mailgun\Mailgun;
 
 require '../vendor/autoload.php';
