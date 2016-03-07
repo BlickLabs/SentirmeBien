@@ -2176,13 +2176,15 @@ label{
 }
 @media only screen and (max-width:576px) { 
     .doctor-tittle { 
-		padding-left: 30px;
+		padding-left: 0px;
+		text-align: center;
     }
 }
 @media only screen and (max-width:480px) { 
     .doctor-tittle {
        	font-size: 24px;
-       	padding-left: 30px;
+       	padding-left: 0px;
+       	text-align: center;
     }
 }
 @media only screen and (max-width:360px) { 

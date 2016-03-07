@@ -104,6 +104,9 @@
 .promo-bg-img-v2 {
   background: url(../img/img-1.jpg) no-repeat;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
 }
 .promo-bg-img-v3 {
   background: url(../img/bg/img10.jpg) no-repeat;
