@@ -135,6 +135,12 @@
 .promo-bg-fixed {
   background-attachment: fixed;
 }
+@media only screen and (max-width:500px) { 
+    .promo-bg-fixed {
+      background-attachment: scroll;
+
+    }
+}
 
 /*Promo Texts v1*/
 .promo-text-v1 {
