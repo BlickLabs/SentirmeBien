@@ -164,6 +164,15 @@
   color: #697e90;
   letter-spacing: 1px;
 }
+@media only screen and (max-width:320px) { 
+  .promo-text-v2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #697e90;
+    letter-spacing: 1px;
+  }
+}
 
 /*Promo Video Icon*/
 .promo-video-icon-wrap {
