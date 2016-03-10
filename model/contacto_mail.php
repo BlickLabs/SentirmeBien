@@ -8,6 +8,7 @@ require '../vendor/autoload.php';
 $name2 = $_POST['name'];
 $email2 = $_POST['email'];
 $mensaje = $_POST['msg'];
+$phone = $_POST['phone'];
 $asunto = 'Un cliente requiere de mayor información: ';
 
 /* Desarrollo */
@@ -20,10 +21,11 @@ $name = $name2;
 $email = $email2;
 $content = $mensaje;
 $subject = $asunto;
+$phoneNumber = $phone;
 
 
 
-$messageBody = "De: $name ($email)\n\n $content";
+$messageBody = "De: $name ($email)\n\n $content \n\n Teléfono: $phoneNumber";
 
 $config = array();
 $config['api_key'] = $api_key;
