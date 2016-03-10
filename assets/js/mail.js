@@ -5,13 +5,13 @@ $(document).ready(function() {
         rules: {
             name: { required: true, minlength: 2},
             email: { required:true, email: true},
-            phone: { required: false, number: true, length: 10},
+            phone: { required: false, number: true},
             msg: { required:true, minlength: 2}
         },
         messages: {
             name: "Debe introducir su nombre.",
             email : "Debe introducir un email válido.",
-            phone : "Debe de ser un número telefónico"
+            phone : "Debe de ser un número telefónico",
             msg : "El campo Mensaje es obligatorio.",
         },
         errorHandler: function (element) {
