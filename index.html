@@ -231,12 +231,12 @@
                 <img src="assets/img/icons/iconos-10.png" class="arrow-icon2-2 img-responsive"alt=""/> <H4 class="benefits-info Avenir">Requisitos mínimos de solicitud</H4>
               </div>
               <div class="container-fluid">
-                <img src="assets/img/icons/iconos-11.png" class="arrow-icon-third img-responsive" alt=""/> <H4 class="benefits-info Avenir">Tasa de interés igual o menor a tarjetas de crédito</H4> 
+                <img src="assets/img/icons/iconos-11.png" class="arrow-icon-third img-responsive" alt=""/> <H4 class="benefits-info Avenir">Tasa de interés menor a las principales tarjetas de crédito</H4> 
               </div>
             </div>
             <div class="col-md-5 container-fluid">
                 <div class="container-fluid">
-                  <img src="assets/img/icons/iconos-13.png" class="arrow-icon2 img-responsive" alt=""/> <H4 class="benefits-info Avenir">Posibilidad de enganche para ahorrar intereses</H4> 
+                  <img src="assets/img/icons/iconos-13.png" class="arrow-icon2-2 img-responsive" alt=""/> <H4 class="benefits-info Avenir">Enganche para ahorrar intereses</H4> 
                 </div>
                 <div class="container-fluid">
                   <img src="assets/img/icons/iconos-12.png" class="arrow-icon-pre img-responsive" alt=""/> <H4 class="benefits-info Avenir">Pre-pagos aceptados</H4> 
@@ -298,6 +298,14 @@
                                              </div>
                                          </div>
 
+                                         <label class="colorSB">Teléfono (Opcional)</label>
+                                         <div class="row sky-space-20">
+                                             <div class="col-md-12 col-md-offset-0">
+                                                 <div>
+                                                     <input type="text" name="phone" id="phone" class="form-control">
+                                                 </div>
+                                             </div>
+                                         </div>
                                          <label class="colorSB">Correo Electrónico</label>
                                          <div class="row sky-space-20">
                                              <div class="col-md-12 col-md-offset-0">
@@ -385,10 +393,9 @@
   </script>
   <script type="text/javascript">
      $(function() {
-          $(document).on('click', function(){ 
+          $(document).on('click touchstart', function(){ 
            $('.navbar-collapse').removeClass('in')
-
-         });
+          });
      });
   </script>
   <!--[if lt IE 9]>
