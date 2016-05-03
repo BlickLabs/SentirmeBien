@@ -2802,3 +2802,31 @@ button.close2 {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }*/
+.privacy-btn{
+background-color: transparent;
+border: none;
+margin-top: -15px;
+padding-bottom: 30px;
+color: #FFF;
+}
+.privacy-btn:hover{
+	background-color: transparent;
+	border: none;
+	margin-top: -15px;
+	padding-bottom: 30px;
+	color: #FFF;
+}
+.privacy-btn:active{
+	background-color: transparent;
+	border: none;
+	margin-top: -15px;
+	padding-bottom: 30px;
+	color: #FFF;
+}
+.privacy-btn:visited{
+	background-color: transparent;
+	border: none;
+	margin-top: -15px;
+	padding-bottom: 30px;
+	color: #FFF;
+}
