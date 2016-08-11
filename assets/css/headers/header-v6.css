@@ -53,11 +53,7 @@
 
 /*Containers
 ------------------------------------*/
-@media (min-width: 768px) and (max-width: 991px) {
-  	.header-v6 .menu-container {
-	    width: 750px;
-  	}
-}
+
 
 @media (max-width: 991px) {
 	.header-v6 .menu-container:before,
@@ -73,8 +69,7 @@
     .header-v6 .menu-container {
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 15px;
-		padding-right: 15px;
+                text-align: right;
 	}
 	
 	.header-v6 > .navbar > .container {
@@ -140,7 +135,7 @@
 /*Navbar Toggle*/
 .header-v6 .navbar-toggle {
 	border: none;
-	margin: 31px 0 31px 15px;
+	margin: 15px 17px 15px 0;
 }
 
 .header-v6 .navbar-toggle .icon-bar {
@@ -374,9 +369,16 @@
     }
     
     .header-v6 .navbar-toggle {
-        display: block;
+        display: inline-block;
+        float: none;
+        padding: 0;
+        height: 20px;
     }
     
+    .header-v6 .navbar-toggle .fa-bars::before{
+        font-size: 20px;
+    }
+
     .header-v6 .navbar-collapse {
 		border-color: #eee;
     	border-bottom: 1px solid #eee;
@@ -477,12 +479,12 @@
 
 	.header-v6 .navbar-nav > li > a {
 		font-size: 14px;
-		padding: 12px 5px;
+		padding: 13px 5px;
 	}
 
 	.header-v6 .navbar-nav > li a {
 		border-bottom: none;
-		border-top: 1px solid #eee;
+		// border-top: 1px solid #eee;
 	}	
 
 	.header-v6 .navbar-nav > li:first-child > a {
