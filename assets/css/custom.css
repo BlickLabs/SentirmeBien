@@ -1,1 +1,45 @@
 /* Add here all your css styles (customizations) */
+
+.promo-bg-img-v2.fullheight.promo-bg-fixed .container.valign__middle.text-center p.Avenir {
+    line-height: 1.4;
+}
+
+.credit-tittle, .credit-tittle2 {
+    width: auto !important;
+    margin-right: 18px !important;
+}
+
+.headline-center .credit-tittle {
+    margin-right: 0 !important;
+}
+
+.credit-tittle::after, .credit-tittle2::after {
+    position: initial !important;
+    display: block !important;
+    margin-left: 100% !important;
+    transform: translateX(-100%);
+}
+
+@media screen and (max-width: 767px) {
+    .promo-bg-img-v2.fullheight.promo-bg-fixed .container.valign__middle.text-center p.Avenir {
+        font-size: 23px;
+    }
+
+    .headline-center3, .headline-center4, .headline-center5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .promo-bg-img-v2.fullheight.promo-bg-fixed .container.valign__middle.text-center p.Avenir {
+        font-size: 17px;
+    }
+
+    .credit-tittle {
+        max-width: 170px;
+    }
+
+    .credit-tittle2
+        max-width: 222px;
+    }
+}

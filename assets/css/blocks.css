@@ -102,8 +102,21 @@
   background-size: cover;
 }
 .promo-bg-img-v2 {
-  background: url(../img/bg/img5.jpg) no-repeat;
+  background: url(../img/img-1.jpg) no-repeat;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
+}
+@media only screen and (max-width:700px) { 
+    .promo-bg-img-v2 {
+      background: url(../img/img-1.jpg) no-repeat center center;
+      background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size:cover;
+
+    }
 }
 .promo-bg-img-v3 {
   background: url(../img/bg/img10.jpg) no-repeat;
@@ -122,6 +135,12 @@
 .promo-bg-fixed {
   background-attachment: fixed;
 }
+@media only screen and (max-width:500px) { 
+    .promo-bg-fixed {
+      background-attachment: scroll;
+
+    }
+}
 
 /*Promo Texts v1*/
 .promo-text-v1 {
@@ -130,6 +149,7 @@
   font-weight: 600;
   display: inline-block;
   border-bottom: solid 2px #fff;
+
 }
 
 .promo-text-v1.color-dark {
@@ -138,9 +158,20 @@
 
 /*Promo Texts v2*/
 .promo-text-v2 {
-  font-size: 55px;
+  font-size: 30px;
   font-weight: 600;
-  line-height: 63px;
+  line-height: 33px;
+  color: #697e90;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width:321px) { 
+  .promo-text-v2 {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #697e90;
+    letter-spacing: 1px;
+  }
 }
 
 /*Promo Video Icon*/
